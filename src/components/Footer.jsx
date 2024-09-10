@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom"
 
 export const Footer = () => {
   return (
@@ -5,10 +6,10 @@ export const Footer = () => {
       <nav>
         <div className="nav-links-container">
           <ul className="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><NavLink onClick={() => location.href = '#about'}>About</NavLink></li>
+            <li><NavLink onClick={() => location.href = '#experience'}>Experience</NavLink></li>
+            <li><NavLink onClick={() => location.href = '#projects'}>Projects</NavLink></li>
+            <li><NavLink onClick={() => location.href = '#contact'}>Contact</NavLink></li>
           </ul>
         </div>
       </nav>
