@@ -1,0 +1,38 @@
+export const projects = [
+    {
+        id: 1,
+        srcImage: './assets/projects/ueno-bank.png',
+        title: 'Ueno Bank',
+        alt: 'Project Ueno Bank',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime',
+        linkGithub: null,
+        linkDemo: 'https://play.google.com/store/apps/details?id=py.com.elcomercio.retailbanking&hl=es_PY',
+    },
+    {
+        id: 2,
+        srcImage: './assets/projects/fundapp.png',
+        title: 'Fundapp',
+        alt: 'Project Fundapp',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime',
+        linkGithub: null,
+        linkDemo: 'https://play.google.com/store/apps/details?id=org.fundassa.fundapp&hl=es_PY',
+    },
+    {
+        id: 3,
+        srcImage: './assets/projects/vaquita.png',
+        title: 'Vaquita',
+        alt: 'Project Vaquita',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime',
+        linkGithub: null,
+        linkDemo: 'https://play.google.com/store/apps/details?id=py.com.mutech.vaquita&hl=es_PY',
+    },
+    {
+        id: 4,
+        srcImage: './assets/projects/pneumonia.png',
+        title: 'Pneumonia Detection',
+        alt: 'Project Pneumonia Detection',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime',
+        linkGithub: 'https://github.com/alangwynn/pneumonia-detection/tree/master',
+        linkDemo: null,
+    },
+]
