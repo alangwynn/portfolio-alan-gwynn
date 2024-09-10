@@ -1,6 +1,8 @@
 import { projects } from "../data/projects";
 import { CardProject } from "./CardProject";
 
+import arrowImage from '../assets/images/arrow.png';
+
 export const SectionProjects = () => {
   return (
     <section id="projects">
@@ -14,7 +16,7 @@ export const SectionProjects = () => {
         </div>
       </div>
       <img
-        src="./assets/images/arrow.png"
+        src={arrowImage}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => (location.href = "#contact")}

@@ -1,4 +1,7 @@
 
+import emailImage from '../assets/images/email.png';
+import linkedinImage from '../assets/images/linkedin.png';
+
 export const SectionContact = () => {
   return (
     <section id="contact">
@@ -7,7 +10,7 @@ export const SectionContact = () => {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <img
-            src="./assets/images/email.png"
+            src={emailImage}
             alt="Email icon"
             className="icon contact-icon email-icon"
           />
@@ -15,7 +18,7 @@ export const SectionContact = () => {
         </div>
         <div className="contact-info-container">
           <img
-            src="./assets/images/linkedin.png"
+            src={linkedinImage}
             alt="LinkedIn icon"
             className="icon contact-icon"
           />

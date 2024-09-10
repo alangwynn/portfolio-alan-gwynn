@@ -1,6 +1,8 @@
 import { experiences } from "../data/experience";
 import { CardExperience } from "./CardExperience";
 
+import arrowImage from '../assets/images/arrow.png';
+
 export const SectionExperience = () => {
   experiences
   return (
@@ -15,7 +17,7 @@ export const SectionExperience = () => {
         </div>
       </div>
       <img
-        src="./assets/images/arrow.png"
+        src={arrowImage}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => (location.href = "#projects")}

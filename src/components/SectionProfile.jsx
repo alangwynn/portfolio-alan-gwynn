@@ -1,5 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import profileImage from '../assets/profile/image.png';
+import linkedinImage from '../assets/images/linkedin.png';
+import githubImage from '../assets/images/github.png';
+
 export const SectionProfile = () => {
   const openPage = (url) => {
     window.open(url, "_blank");
@@ -13,7 +17,7 @@ export const SectionProfile = () => {
     <section id="profile">
       <div className="section__pic-container">
         <img
-          src="./assets/profile/image.png"
+          src={profileImage}
           alt="Alan Gwynn profile picture"
           className="about-pic"
         />
@@ -35,7 +39,7 @@ export const SectionProfile = () => {
         </div>
         <div id="socials-container">
           <img
-            src="./assets/images/linkedin.png"
+            src={linkedinImage}
             alt="My Linkedin profile"
             className="icon"
             onClick={() =>
@@ -43,7 +47,7 @@ export const SectionProfile = () => {
             }
           />
           <img
-            src="./assets/images/github.png"
+            src={githubImage}
             alt="My Github profile"
             className="icon"
             onClick={() => openPage("https://github.com/alangwynn")}

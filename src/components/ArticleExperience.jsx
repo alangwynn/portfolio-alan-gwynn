@@ -1,10 +1,12 @@
 /* eslint-disable react/prop-types */
 
+import checkMarkImage from '../assets/images/checkmark.png';
+
 export const ArticleExperience = ({technology}) => {
   return (
     <article>
       <img
-        src="./assets/images/checkmark.png"
+        src={checkMarkImage}
         alt="Experience icon"
         className="icon"
       />

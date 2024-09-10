@@ -1,3 +1,9 @@
+
+import profileImage from '../assets/profile/image.png';
+import experienceImage from '../assets/images/experience.png';
+import educationImage from '../assets/images/education.png';
+import arrowImage from '../assets/images/arrow.png';
+
 export const SectionAbout = () => {
   return (
     <section id="about">
@@ -6,7 +12,7 @@ export const SectionAbout = () => {
       <div className="section-container">
         <div className="section__pic-container">
           <img
-            src="./assets/profile/image.png"
+            src={profileImage}
             alt="Profile picture"
             className="about-pic"
           />
@@ -15,7 +21,7 @@ export const SectionAbout = () => {
           <div className="about-containers">
             <div className="details-container">
               <img
-                src="./assets/images/experience.png"
+                src={experienceImage}
                 alt="Experience icon"
                 className="icon"
               />
@@ -27,7 +33,7 @@ export const SectionAbout = () => {
             </div>
             <div className="details-container">
               <img
-                src="./assets/images/education.png"
+                src={educationImage}
                 alt="Education icon"
                 className="icon"
               />
@@ -55,7 +61,7 @@ export const SectionAbout = () => {
         </div>
       </div>
       <img
-        src="./assets/images/arrow.png"
+        src={arrowImage}
         alt="Arrow icon"
         className="icon arrow"
         onClick={() => (location.href = "#experience")}
