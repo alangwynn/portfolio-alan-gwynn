@@ -3,6 +3,7 @@
 import profileImage from '../assets/profile/image.png';
 import linkedinImage from '../assets/images/linkedin.png';
 import githubImage from '../assets/images/github.png';
+import pdf from '../assets/cv/resume.pdf';
 
 export const SectionProfile = () => {
   const openPage = (url) => {
@@ -29,7 +30,7 @@ export const SectionProfile = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2"
-            onClick={() => openPage("./assets/cv/resume.pdf")}
+            onClick={() => openPage(pdf)}
           >
             Download CV
           </button>
