@@ -1,9 +1,9 @@
 export const experiences = [
     {
         id: 1,
-        jobTitle: 'Mid Level Software Engineer',
+        jobTitle: 'Mid-Level Software Engineer',
         companyAndDate: 'ITTI Digital - (AUG 2023 - PRESENT)',
-        description: 'As a mid level Software Engineer, I work on both the front end, involving how clients get to interact with the application, and the back end, where I am developing microservices consumed by applications to handle business logic. I work in close contact with a big development team for the implementation of efficient, functional software.',
+        description: 'As a mid-level Software Engineer, I work on both the front end, involving how clients get to interact with the application, and the back end, where I am developing microservices consumed by applications to handle business logic. I work in close contact with a big development team for the implementation of efficient, functional software.',
         technologies: [
             {
                 id: 1,
