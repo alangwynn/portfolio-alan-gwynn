@@ -12,6 +12,7 @@ export const CardProject = ({ project }) => {
       </div>
       <h2 className="experience-sub-title project-title">{project.title}</h2>
       <p className="paragraph-sub-title">{project.description}</p>
+      <p className="paragraph-sub-title"><b>Tech Stack: </b>{project.techStack}</p>
       <div className="btn-container">
         {project.linkGithub && (
           <button
