@@ -47,10 +47,10 @@ export const SectionAbout = () => {
           </div>
           <div className="text-container">
             <p>
-              A full-stack developer with over 3 years of experience in the
+              A full-stack developer with 4 YOE in the
               development of web and mobile applications. I have extensive
               knowledge of various technologies, such as Flutter, Angular, React
-              and NodeJS. With more than 3 years of experience as a software
+              and NodeJS. With 4 YOE as a software
               engineer, one of the key areas of my expertise is the construction
               of efficient microservices, delivering high quality and scalable
               solutions. I am highly interested in learning and implementing new
