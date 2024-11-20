@@ -27,7 +27,7 @@ export const SectionAbout = () => {
               />
               <h3>Experience</h3>
               <p>
-                3+ years <br />
+                4+ years <br />
                 Full Stack Development
               </p>
             </div>
