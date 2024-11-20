@@ -108,7 +108,7 @@ export const experiences = [
             },
             {
                 id: 18,
-                technology: 'NestKS',
+                technology: 'NestJS',
                 level: 'Intermediate',
             },
             {
