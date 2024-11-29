@@ -116,6 +116,11 @@ export const experiences = [
                 technology: 'PostgreSQL',
                 level: 'Intermediate',
             },
+            {
+                id: 20,
+                technology: 'ReactJS',
+                level: 'Intermediate',
+            },
         ]
     },
 ]
