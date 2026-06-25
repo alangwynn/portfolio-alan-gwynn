@@ -1,8 +1,7 @@
-
-import profileImage from '../assets/profile/image.png';
-import experienceImage from '../assets/images/experience.png';
-import educationImage from '../assets/images/education.png';
-import arrowImage from '../assets/images/arrow.png';
+import profileImage from "../assets/profile/image.png";
+import experienceImage from "../assets/images/experience.png";
+import educationImage from "../assets/images/education.png";
+import arrowImage from "../assets/images/arrow.png";
 
 export const SectionAbout = () => {
   return (
@@ -11,11 +10,7 @@ export const SectionAbout = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img
-            src={profileImage}
-            alt="Profile picture"
-            className="about-pic"
-          />
+          <img src={profileImage} alt="Profile picture" className="about-pic" />
         </div>
         <div className="about-details-container">
           <div className="about-containers">
@@ -27,16 +22,12 @@ export const SectionAbout = () => {
               />
               <h3>Experience</h3>
               <p>
-                4+ years <br />
-                Full Stack Development
+                5+ years <br />
+                Software Engineer
               </p>
             </div>
             <div className="details-container">
-              <img
-                src={educationImage}
-                alt="Education icon"
-                className="icon"
-              />
+              <img src={educationImage} alt="Education icon" className="icon" />
               <h3>Education</h3>
               <p>
                 Bachelors Degree Computer Engineering
@@ -47,15 +38,15 @@ export const SectionAbout = () => {
           </div>
           <div className="text-container">
             <p>
-              A full-stack developer with 4 YOE in the
-              development of web and mobile applications. I have extensive
-              knowledge of various technologies, such as Flutter, Angular, React
-              and NodeJS. With 4 YOE as a software
-              engineer, one of the key areas of my expertise is the construction
-              of efficient microservices, delivering high quality and scalable
-              solutions. I am highly interested in learning and implementing new
-              cutting-edge technologies, so I work on my computer science skills
-              studying the latest technologies.
+              Software Engineer with 5+ years of experience developing web and
+              mobile applications using technologies such as Angular, React,
+              Flutter, Node.js, and .NET. Experienced in designing and
+              implementing scalable solutions, APIs, and microservices while
+              contributing to all stages of the software development lifecycle,
+              from feature analysis and planning to implementation and
+              maintenance. Passionate about continuous learning, software
+              quality, and leveraging modern technologies to build efficient,
+              reliable, and maintainable systems.
             </p>
           </div>
         </div>

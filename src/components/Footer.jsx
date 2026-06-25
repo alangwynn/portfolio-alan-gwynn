@@ -14,6 +14,7 @@ export const Footer = () => {
         </div>
       </nav>
       <p>2024 Alan Gwynn</p>
+      <p><b>Last update</b>: 06/24/2026</p>
     </footer>
   )
 }

@@ -1,8 +1,36 @@
 export const experiences = [
     {
+        id: 4,
+        jobTitle: 'Senior Software Engineer',
+        companyAndDate: 'FortyAU - (FEB 2025 - PRESENT)',
+        description: 'As a Senior Software Engineer, I contribute to all stages of the software development lifecycle, including ticket refinement, feature analysis, task planning, and feature implementation. My work spans frontend, backend, and mobile development, depending on the requirements of the projects I am assigned to. I collaborate closely with cross-functional teams to deliver scalable, high-quality solutions while maintaining strong development standards. Additionally, I proactively identify opportunities to improve project architecture, optimize development processes, and keep dependencies up to date to reduce technical debt and prevent long-term issues.',
+        technologies: [
+            {
+                id: 21,
+                technology: 'React 19',
+                level: 'Advanced',
+            },
+            {
+                id: 22,
+                technology: 'Angular 21',
+                level: 'Advanced',
+            },
+            {
+                id: 23,
+                technology: 'Node.js',
+                level: 'Intermediate',
+            },
+            {
+                id: 24,
+                technology: '.NET 10',
+                level: 'Intermediate',
+            },
+        ]
+    },
+    {
         id: 1,
         jobTitle: 'Mid-Level Software Engineer',
-        companyAndDate: 'ITTI Digital - (AUG 2023 - PRESENT)',
+        companyAndDate: 'ITTI Digital - (AUG 2023 - FEB 2025)',
         description: 'As a mid-level Software Engineer, I work on both the front end, involving how clients get to interact with the application, and the back end, where I am developing microservices consumed by applications to handle business logic. I work in close contact with a big development team for the implementation of efficient, functional software.',
         technologies: [
             {
