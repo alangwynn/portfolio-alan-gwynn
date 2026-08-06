@@ -3,7 +3,7 @@ export const experiences = [
         id: 4,
         jobTitle: 'Senior Software Engineer',
         companyAndDate: 'FortyAU - (FEB 2025 - PRESENT)',
-        description: 'As a Senior Software Engineer, I contribute to all stages of the software development lifecycle, including ticket refinement, feature analysis, task planning, and feature implementation. My work spans frontend, backend, and mobile development, depending on the requirements of the projects I am assigned to. I collaborate closely with cross-functional teams to deliver scalable, high-quality solutions while maintaining strong development standards. Additionally, I proactively identify opportunities to improve project architecture, optimize development processes, and keep dependencies up to date to reduce technical debt and prevent long-term issues.',
+        description: 'As a Senior Software Engineer, I contribute to all stages of the software development lifecycle, including ticket refinement, feature analysis, task planning, and feature implementation. My work spans frontend, backend, mobile development, and AWS DevOps, depending on the requirements of the projects I am assigned to. I collaborate closely with cross-functional teams to deliver scalable, high-quality solutions while maintaining strong development standards. Additionally, I proactively identify opportunities to improve project architecture, optimize development processes, and keep dependencies up to date to reduce technical debt and prevent long-term issues.',
         technologies: [
             {
                 id: 21,
@@ -24,6 +24,11 @@ export const experiences = [
                 id: 24,
                 technology: '.NET 10',
                 level: 'Intermediate',
+            },
+            {
+                id: 25,
+                technology: 'AWS',
+                level: 'Beginner',
             },
         ]
     },

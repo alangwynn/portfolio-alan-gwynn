@@ -41,9 +41,11 @@ export const SectionAbout = () => {
               Software Engineer with 5+ years of experience developing web and
               mobile applications using technologies such as Angular, React,
               Flutter, Node.js, and .NET. Experienced in designing and
-              implementing scalable solutions, APIs, and microservices while
-              contributing to all stages of the software development lifecycle,
-              from feature analysis and planning to implementation and
+              implementing scalable solutions, APIs, and microservices, while
+              also contributing to AWS cloud infrastructure, CI/CD pipelines,
+              and DevOps practices. Skilled in collaborating across all stages
+              of the software development lifecycle, from requirements analysis
+              and solution design to implementation, deployment, and
               maintenance. Passionate about continuous learning, software
               quality, and leveraging modern technologies to build efficient,
               reliable, and maintainable systems.
