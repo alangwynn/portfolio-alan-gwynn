@@ -1,4 +1,4 @@
-import profileImage from "../assets/profile/image.png";
+import meImage from "../assets/me/me.png";
 import experienceImage from "../assets/images/experience.png";
 import educationImage from "../assets/images/education.png";
 import arrowImage from "../assets/images/arrow.png";
@@ -9,8 +9,11 @@ export const SectionAbout = () => {
       <p className="section__text__p1">Get To Know More</p>
       <h1 className="title">About Me</h1>
       <div className="section-container">
-        <div className="section__pic-container">
-          <img src={profileImage} alt="Profile picture" className="about-pic" />
+        <div className="section__pic-container about-pic-container">
+          <img
+            src={meImage}
+            alt="Alan Gwynn profile picture"
+          />
         </div>
         <div className="about-details-container">
           <div className="about-containers">

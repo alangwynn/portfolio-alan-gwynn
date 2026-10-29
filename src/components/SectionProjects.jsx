@@ -19,7 +19,7 @@ export const SectionProjects = () => {
         src={arrowImage}
         alt="Arrow icon"
         className="icon arrow"
-        onClick={() => (location.href = "#contact")}
+        onClick={() => (location.href = "#certifications")}
       />
     </section>
   );

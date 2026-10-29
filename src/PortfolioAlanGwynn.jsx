@@ -6,6 +6,7 @@ import { SectionContact } from "./components/SectionContact"
 import { SectionExperience } from "./components/SectionExperience"
 import { SectionProfile } from "./components/SectionProfile"
 import { SectionProjects } from "./components/SectionProjects"
+import { SectionCertifications } from "./components/SectionCertifications"
 
 export const PortfolioAlanGwynn = () => {
   return (
@@ -16,6 +17,7 @@ export const PortfolioAlanGwynn = () => {
         <SectionAbout />
         <SectionExperience />
         <SectionProjects />
+        <SectionCertifications />
         <SectionContact />
         <Footer />
     </>

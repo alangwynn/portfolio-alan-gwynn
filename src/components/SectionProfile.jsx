@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import profileImage from '../assets/profile/image.png';
+import profileImage from '../assets/me/me2.png';
 import linkedinImage from '../assets/images/linkedin.png';
 import githubImage from '../assets/images/github.png';
 import pdf from '../assets/cv/resume.pdf';

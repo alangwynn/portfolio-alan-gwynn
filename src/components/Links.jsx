@@ -14,6 +14,9 @@ export const Links = () => {
         <NavLink onClick={() => location.href = '#projects'}>Projects</NavLink>
       </li>
       <li>
+        <NavLink onClick={() => location.href = '#certifications'}>Certifications</NavLink>
+      </li>
+      <li>
         <NavLink onClick={() => location.href = '#contact'}>Contact</NavLink>
       </li>
     </>

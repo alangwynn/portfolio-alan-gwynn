@@ -7,7 +7,8 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #projects,
+  #certifications {
     height: fit-content;
   }
 }
@@ -97,6 +98,11 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+  .about-pic-container {
+    width: 46vw;
+    height: 46vw;
+    margin: 0 auto 2rem;
   }
   .section__text__p2 {
     font-size: 1.25rem;
