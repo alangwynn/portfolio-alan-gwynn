@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar"
 import { SectionAbout } from "./components/SectionAbout"
 import { SectionContact } from "./components/SectionContact"
 import { SectionExperience } from "./components/SectionExperience"
+import { SectionSkills } from "./components/SectionSkills"
 import { SectionProfile } from "./components/SectionProfile"
 import { SectionProjects } from "./components/SectionProjects"
 import { SectionCertifications } from "./components/SectionCertifications"
@@ -16,6 +17,7 @@ export const PortfolioAlanGwynn = () => {
         <SectionProfile />
         <SectionAbout />
         <SectionExperience />
+        <SectionSkills />
         <SectionProjects />
         <SectionCertifications />
         <SectionContact />

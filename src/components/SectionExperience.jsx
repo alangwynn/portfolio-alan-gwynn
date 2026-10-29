@@ -20,7 +20,7 @@ export const SectionExperience = () => {
         src={arrowImage}
         alt="Arrow icon"
         className="icon arrow"
-        onClick={() => (location.href = "#projects")}
+        onClick={() => (location.href = "#skills")}
       />
     </section>
   );
